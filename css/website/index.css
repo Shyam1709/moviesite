@@ -54,7 +54,7 @@ background-color: black;
 .header{
 background-repeat: none;
 background-color: white;
-background-image: url(../img/i11.jpg);
+background-image: url(../images/card-images/header-background.jpg);
 height: 450px;
 margin-top: -8px;
 margin-bottom: 12px;
@@ -116,7 +116,6 @@ padding: 2px 16px;
 img{
 width: 100%;
 height: 180px;
-
 }
 
 
@@ -135,9 +134,7 @@ h3{
 .checked {
     color: rgb(250,235,215);
 }
-.info{
-	display: none;
-}
+
 .text{
   background-color: grey;
  font-family: 'Montserrat';
@@ -149,33 +146,14 @@ h3{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-.card_text{
-  background: blue;
- font-family: 'Roboto Light';
-   font-size: 25px;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-#info_9{
-	  font-family: 'Montserrat';
-        font-size: 15px;
-        text-align: center;
-}
-#img_fix{
-	height: 187.5px;
-	width: 300px;
-}
+
 /*-----------------------------------------CSS For Footer Gap---------------------------------------------------------*/
 
 #footer_gap{
 height: 100px;
 }
 
-/*--------------------------------------CSS For Footer--300x187.5------------------------------------------*/
+/*--------------------------------------CSS For Footer-------------------------------------------*/
 
 .footer{
 background-color: rgb(255,228,196);
@@ -227,13 +205,12 @@ cursor: pointer;
 margin-left: 72px;
 margin-top: -10px;
 }
-#ic1{
-	height: 45px;
-	width: 45px;
+#button_effect img{
+  height: 45px;
+  width: 45px;
 }
 #button_effect img:hover{
-	  width: 50px;
+    width: 50px;
     transition: width 0s;
     opacity: 0.5;
 }
-

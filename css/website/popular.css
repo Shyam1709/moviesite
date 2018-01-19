@@ -1,6 +1,13 @@
 body{
 	background-color: rgb(230,230,250);
 }
+h1{
+	text-align: center;
+	font-family: 'Lobster';
+	color: red;
+	font-size: 25px;
+	text-decoration: underline;
+}
 /*------------------------------Css For Nav Bar----------------------*/
 ul {
 list-style-type: none;
@@ -40,9 +47,6 @@ background-color: black;
 background: rgb(127,255,0);
 height: 1px;
 }
-h1{
-text-align: center;
-}
 /*---------------------------------------------Css For Card Layout----------------------*/
 .card {
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -56,6 +60,9 @@ width: 40%;
 padding-bottom: 0px;
 height: 278px;
 }
+.movie_heading{
+font-family: 'Montserrat';
+}
 .card_text{
 position:relative;
 bottom: 270px;
@@ -66,20 +73,11 @@ width: 240px;
 .card_space{
 height: 50px;
 }
-#card_info{
-font-size: 15px;
-width: 240px;
-}
 #rating{
 font-size: 17px;
 float: right;
 }
-#category i{
-font-size: 15px;
-}
-#myBtn{
-font-family: 'Montserrat';
-}
+
 /*---------------------------------------------Css For Pagination------------------------*/
 .pagination {
 margin-left: 450px;
@@ -101,7 +99,6 @@ color: white;
 border: 1px solid #4CAF50;
 }
 .pagination a:hover:not(.active) {background-color: #ddd;}
-/*--------------------------------------CSS For Modal Box-----------------------------*/
 
 /*--------------------------------------------CSS For Footer-----------------------*/
 .footer{
@@ -110,30 +107,32 @@ height: 350px;
 }
 #footer_div{
 margin-top: 50px;
-/*border-left: 6px solid green;*/
 height: 200px;
-}
-#footer_text{
-font-size: 20px;
-height: 60px;
-text-align: center;
-font-family: 'Roboto Light';
-}
-#footer_lasttext{
-font-size: 20px;
-text-align: left;
-font-family: 'Roboto Light';
-}
-input{
-margin-top:-11px;
-margin-right: 12px;
-height: 30px;
-width: 200px;
 }
 h2{
 text-align: center;
  font-family: 'Roboto';
  font-size: 15px;
+}
+.footer_text{
+font-size: 20px;
+height: 60px;
+text-align: center;
+font-family: 'Roboto Light';
+}
+#footer_lastgrid{
+margin-left: 72px;
+margin-top: -10px;
+}
+.footer_lastgridtext{
+margin-top: -18px;
+font-size: 20px;
+text-align: left;
+font-family: 'Roboto Light';
+}
+input{
+height: 30px;
+width: 200px;
 }
 .button {
 background-color: #4CAF50;
@@ -148,17 +147,6 @@ position: relative;
 margin: 4px 6px;
 cursor: pointer;
 }
-#footer_lastgrid{
-margin-left: 72px;
-margin-top: -10px;
-}
-#ic1{
-	height: 45px;
-	width: 45px;
-}
-#button_effect img:hover{
-	  width: 50px;
-    transition: width 0s;
-    opacity: 0.5;
-}
+
+/*---------------------------------------CSS Terminates Here------------*/
 

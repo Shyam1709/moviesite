@@ -1,9 +1,15 @@
+
+/*-------------------------------CSS For Card Spacing ------------------------*/
 #gap{
 	height: 80px;
 }
+
+/*---------------------------CSS For Card Aligning ---------------------------*/
 .shift_card{
 	margin-left: 32px;
 }
+
+/*------------------------------CSS For Overlay Content ----------------------*/
 .text {
   color: white;
   font-size: 20px;
@@ -14,6 +20,8 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+
+/*---------------------------------CSS For Overlay ---------------------------*/
 .overlay {
   position: absolute;
   top: 0;
