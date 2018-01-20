@@ -46,15 +46,15 @@ font-size: 30px;
 background-color: black;
 }
 #line_style{
-	background: rgb(127,255,0);
-	height: 1px;
+  background: rgb(127,255,0);
+  height: 1px;
 }
 /*-----------------------------------------CSS For Header--------------------------------------------*/
 
 .header{
 background-repeat: none;
 background-color: white;
-background-image: url(../images/card-images/header-background.jpg);
+background-image: url(../../images/card-images/header-background.jpg);
 height: 450px;
 margin-top: -8px;
 margin-bottom: 12px;
@@ -62,18 +62,18 @@ margin-bottom: 12px;
 
 /*------------------------------------------CSS For Hr Content-----------------------------------*/
 
-#hr_content{
+.hr_content{
 background-color: blue;
 }
-#hr_content p{
+.hr_content p{
 font-size: 25px;
 text-align: center;
 color: white;
 font-family: "Abril Fatface";
 }
-#ln_hr{
-	background: rgb(0,0,128);
-	height: 1px;
+.ln_hr{
+  background: rgb(0,0,128);
+  height: 1px;
 }
 
 /*-------------------------------------CSS For Card Layout --------------------------------------*/
@@ -127,7 +127,7 @@ h3{
 	font-family: 'Montserrat';
 	font-size: 22px;
 }
-#card_name{
+.card_name{
 	height: 28px;
 	margin-left: 34px;
 }
@@ -154,39 +154,40 @@ height: 100px;
 }
 
 /*--------------------------------------CSS For Footer-------------------------------------------*/
-
 .footer{
 background-color: rgb(255,228,196);
-height: 350px;
+height: 380px;
 }
 #footer_div{
 margin-top: 50px;
-/*border-left: 6px solid green;*/
 height: 200px;
 }
-#footer_text{
+.footer_text{
 font-size: 20px;
 height: 60px;
 text-align: center;
 font-family: 'Roboto Light';
 }
 
-#footer_lasttext{
+.footer_lasttext{
 font-size: 20px;
 text-align: left;
 font-family: 'Roboto Light';
 
 }
-input{
-margin-top:-11px;
-margin-right: 12px;
-height: 30px;
-width: 200px;
-}
 h2{
 text-align: center;
  font-family: 'Roboto';
- font-size: 15px;
+ font-size: 25px;
+}
+input{
+margin-top:-13px;
+}
+.font_text{
+font-size: 16px;
+margin-right: 12px;
+height: 30px;
+width: 200px;
 }
 .button {
 background-color: #4CAF50;
@@ -205,12 +206,8 @@ cursor: pointer;
 margin-left: 72px;
 margin-top: -10px;
 }
+
 #button_effect img{
   height: 45px;
   width: 45px;
-}
-#button_effect img:hover{
-    width: 50px;
-    transition: width 0s;
-    opacity: 0.5;
 }

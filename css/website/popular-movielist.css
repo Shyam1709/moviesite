@@ -5,6 +5,8 @@ h1{
 	text-align: center;
 	font-family: 'Lobster';
 	color: red;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	font-size: 25px;
 	text-decoration: underline;
 }
@@ -42,10 +44,6 @@ font-size: 30px;
 }
 #logo_name:hover{
 background-color: black;
-}
-#line_style{
-background: rgb(127,255,0);
-height: 1px;
 }
 /*---------------------------------------------Css For Card Layout----------------------*/
 .card {
@@ -98,7 +96,9 @@ background-color: #4CAF50;
 color: white;
 border: 1px solid #4CAF50;
 }
-.pagination a:hover:not(.active) {background-color: #ddd;}
+.pagination a:hover:not(.active) {
+	background-color: #ddd;
+}
 
 /*--------------------------------------------CSS For Footer-----------------------*/
 .footer{
@@ -112,7 +112,7 @@ height: 200px;
 h2{
 text-align: center;
  font-family: 'Roboto';
- font-size: 15px;
+ font-size: 25px;
 }
 .footer_text{
 font-size: 20px;
