@@ -1,14 +1,14 @@
 body{
-	background-color: rgb(230,230,250);
+background-color: rgb(230,230,250);
 }
 h1{
-	text-align: center;
-	font-family: 'Lobster';
-	color: red;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	font-size: 25px;
-	text-decoration: underline;
+text-align: center;
+font-family: 'Lobster';
+color: red;
+margin-top: 30px;
+margin-bottom: 30px;
+font-size: 25px;
+text-decoration: underline;
 }
 /*------------------------------Css For Nav Bar----------------------*/
 ul {
@@ -75,7 +75,6 @@ height: 50px;
 font-size: 17px;
 float: right;
 }
-
 /*---------------------------------------------Css For Pagination------------------------*/
 .pagination {
 margin-left: 450px;
@@ -97,9 +96,8 @@ color: white;
 border: 1px solid #4CAF50;
 }
 .pagination a:hover:not(.active) {
-	background-color: #ddd;
+background-color: #ddd;
 }
-
 /*--------------------------------------------CSS For Footer-----------------------*/
 .footer{
 background-color: rgb(255,228,196);
@@ -111,8 +109,8 @@ height: 200px;
 }
 h2{
 text-align: center;
- font-family: 'Roboto';
- font-size: 25px;
+font-family: 'Roboto';
+font-size: 25px;
 }
 .footer_text{
 font-size: 20px;
@@ -147,6 +145,4 @@ position: relative;
 margin: 4px 6px;
 cursor: pointer;
 }
-
 /*---------------------------------------CSS Terminates Here------------*/
-

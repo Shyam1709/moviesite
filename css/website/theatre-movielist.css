@@ -1,42 +1,38 @@
-
 /*-------------------------------CSS For Card Spacing ------------------------*/
 #gap{
-	height: 80px;
+height: 80px;
 }
-
 /*---------------------------CSS For Card Aligning ---------------------------*/
 .shift_card{
-	margin-left: 32px;
+margin-left: 32px;
 }
-
 /*------------------------------CSS For Overlay Content ----------------------*/
 .text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
 }
-
 /*---------------------------------CSS For Overlay ---------------------------*/
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 85%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgba(0,0,0,0.6);
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 85%;
+opacity: 0;
+transition: .5s ease;
+background-color: rgba(0,0,0,0.6);
 }
 .container:hover .overlay {
-  opacity: 1;
+opacity: 1;
 }
 .container {
-  position: relative;
-  width: 30%;
+position: relative;
+width: 30%;
 }
