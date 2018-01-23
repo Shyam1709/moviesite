@@ -1,0 +1,153 @@
+body{
+	background-color: rgb(230,230,250);
+}
+/*------------------------------Css For Nav Bar----------------------*/
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: black;
+height: 70px;
+}
+#l{
+font-size: 20px;
+}
+li {
+float: left;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family: 'Montserrat';
+font-size: 20px;
+}
+li a:hover {
+background-color: red;
+height: 80px;
+}
+#logo_name{
+font-family: 'Lobster';
+font-size: 30px;
+}
+#logo_name:hover{
+background-color: black;
+}
+h1{
+	text-align: center;
+	font-family: 'Lobster';
+	color: red;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 25px;
+	text-decoration: underline;
+}
+/*---------------------------------------------Css For Card Layout----------------------*/
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: auto;
+height: 278px;
+background: rgb(253,245,230);
+}
+.card img{
+width: 40%;
+padding-bottom: 0px;
+height: 278px;
+}
+.movie_heading{
+font-family: 'Montserrat';
+}
+.card_text{
+position:relative;
+bottom: 270px;
+left: 200px;
+font-size: 15px;
+width: 240px;
+}
+.card_text p{
+text-align: justify;
+}
+.card_space{
+height: 50px;
+}
+#rating{
+font-size: 17px;
+float: right;
+}
+/*---------------------------------------------Css For Pagination------------------------*/
+.pagination {
+margin-left: 450px;
+display: inline-block;
+}
+.pagination a {
+color: black;
+float: left;
+padding: 8px 16px;
+text-decoration: none;
+transition: background-color .3s;
+border: 1px solid #ddd;
+margin: 0 4px;
+background: white;
+}
+.pagination a.active {
+background-color: #4CAF50;
+color: white;
+border: 1px solid #4CAF50;
+}
+.pagination a:hover:not(.active) {
+	background-color: #ddd;
+}
+/*--------------------------------------------CSS For Footer-----------------------*/
+.footer{
+background-color: rgb(255,228,196);
+height: 350px;
+}
+#footer_div{
+margin-top: 50px;
+height: 200px;
+}
+h2{
+text-align: center;
+ font-family: 'Roboto';
+ font-size: 25px;
+}
+.footer_text{
+font-size: 20px;
+height: 60px;
+text-align: center;
+font-family: 'Roboto Light';
+}
+#footer_lastgrid{
+margin-left: 72px;
+margin-top: -10px;
+}
+.footer_lastgridtext{
+margin-top: -18px;
+font-size: 20px;
+text-align: left;
+font-family: 'Roboto Light';
+}
+input{
+height: 30px;
+width: 200px;
+}
+.button {
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 12px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+position: relative;
+margin: 4px 6px;
+cursor: pointer;
+}
+
+/*---------------------------------------CSS Terminates Here------------*/
+
